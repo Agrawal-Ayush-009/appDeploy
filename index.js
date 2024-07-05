@@ -51,7 +51,7 @@ const uiData = {
     {
       type: "TextView",
       properties: {
-        text: "Hello, Shagun!",
+        text: "Hello, This is Ayush!",
       },
     },
     {
