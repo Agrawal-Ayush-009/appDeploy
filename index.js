@@ -52,7 +52,6 @@ const uiData = {
       type: "TextView",
       properties: {
         text: "Hello, This is Ayush!",
-        textColor: "#ff0000",
       },
     },
     {
