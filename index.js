@@ -42,6 +42,27 @@ const githubData = {
   updated_at: "2024-04-30T14:11:38Z",
 };
 
+const uiData = {
+  type: "LinearLayout",
+  properties: {
+    orientation: "vertical",
+  },
+  children: [
+    {
+      type: "TextView",
+      properties: {
+        text: "Hello, Shagun!",
+      },
+    },
+    {
+      type: "Button",
+      properties: {
+        text: "Click Me",
+      },
+    },
+  ],
+};
+
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
@@ -58,6 +79,12 @@ app.get("/github", (req, res) => {
   res.json(githubData);
 });
 
+app.get("/ui", (req, res) => {
+  res.json(uiData);
+});
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
+
+app.list;
